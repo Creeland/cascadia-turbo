@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "turbo run build",
+    "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules .next .dist .turbo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
